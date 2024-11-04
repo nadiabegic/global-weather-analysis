@@ -4,7 +4,7 @@ This repository was commissioned by the Office of Quirky Inquiries (OQI) to answ
 _"Is London really as rainy as the movies make it out to be?"_
 
 # Statement of Need:
-
+The question of the extent of London's 'raininess' is crucial to answer, as Londoners have been enabled to complain about their weather for far too long. The answer to this perplexing question warrants deeper investigation than simply the annual precipitation that London faces compared to other cities; there are various factors that contribute to one's perception of 'raininess'. This repository was developed to assess the factors of annual precipitation, number of days of rain, and duration of sunshine in 2023. However, it is also important to consider the impact of time and climate change on rainfall, and we should consider that perhaps London was indeed a much rainier city twenty years ago. 
 
 # Methodology:
 - (FIX THIS LATER - DRAFT)
@@ -12,8 +12,8 @@ _"Is London really as rainy as the movies make it out to be?"_
     - obtain the number of days of rainfall in 2023
     - average precipitation in 2023
 - was london perhaps rainier before and that's why we believe it to be so wet?
-    - obtain average number of days of rainfall over 20 year period - why did i choose 20 years?
-    - average precipitation over 20 year period 
+    - obtain average number of days of rainfall 20 years ago - why did i choose 20 years?
+    - average precipitation 20 years ago
 - box plot, standard deviation from mean which will reveal is london weather just really unpredictable 
 
 Chosen cities:
@@ -28,12 +28,8 @@ Chosen cities:
 - Damascus
 - Amsterdam
 
-
-# Summary:
-
-
 # Implementation and usage:
-
+A user will need to download the world_cities.csv which can be found on the [joelacus/world-cities](https://github.com/joelacus/world-cities/blob/main/world_cities.csv) repository.
 
 # Use of AI:
 
