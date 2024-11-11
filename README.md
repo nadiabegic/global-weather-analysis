@@ -51,6 +51,23 @@ conda install anaconda::requests
 pip install lets-plot
 ```
 
+- geopandas
+
+```bash
+conda install geopandas
+```
+
+- shapefile
+
+```bash
+conda install anaconda::pyshp
+```
+
+- shapely
+
+```bash
+conda install conda-forge::shapely
+```
 
 Located in the data folder, the world_cities.csv can be found which was downloaded from the [joelacus/world-cities](https://github.com/joelacus/world-cities/blob/main/world_cities.csv) repository.
 
