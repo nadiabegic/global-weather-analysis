@@ -6,9 +6,10 @@ This repository was commissioned by the Office of Quirky Inquiries (OQI) to answ
 _"Is London really as rainy as the movies make it out to be?"_
 
 ## Statement of Need:
-The question of the extent of London's 'raininess' is crucial to answer, as Londoners have been enabled to complain about their weather for far too long. The answer to this perplexing question warrants deeper investigation than simply the annual precipitation that London faces compared to other cities; there are various factors that contribute to one's perception of 'raininess'. This repository was developed to assess the factors of annual precipitation, number of days of rain, and distribution of precipitation in 2023. However, it is also important to consider the impact of time and climate change on rainfall, and we should consider that perhaps London was indeed a much rainier city twenty years ago. Thus, we also obtain and visualise the three factors mentioned above in 2003. The OpenMeteo API will provide us with a variety of historical weather data to be used in this data collection and analysis. 
+The question of the extent of London's 'raininess' is crucial to answer, as Londoners have been enabled to complain about their weather for far too long. The answer to this perplexing question warrants deeper investigation than simply the annual precipitation that London faces compared to other cities; there are various factors that contribute to one's perception of 'raininess'. This repository was developed to assess the variables of total precipitation, number of days of rain, and daily precipitation in 2023. However, it is also important to consider the impact of time and climate change on rainfall, and we should consider that perhaps London was indeed a much rainier city twenty years ago. Thus, we also obtain and visualise the three variables mentioned above in 2003. The OpenMeteo API will provide us with a variety of historical weather data to be used in this data collection and analysis. 
 
 ## Summary of findings:
+There are numerous variables that contribute towards the perception that London is a rainy city. London does not rain nearly as much as some of the rainiest capital cities in Europe (e.g. Amsterdam, Edinburgh) as revealed by the bar chart depicting the total precipitation, however there are factors that contribute to the myth of London being a rainy city. London has a relatively high number of days of rain in year depicted by the bar chart, and it has some unpredictable weather as demonstrated by the skewness of the boxplot. London received less rainfall 20 years ago than it does now, yet it held the same reputation then. Ultimately, it's complicated. More details of the results may be found at the bottom of NB02.  
 
 ## Methodology:
 1. Obtain the longitude and latitude of the following ten different cities:
@@ -25,10 +26,10 @@ The question of the extent of London's 'raininess' is crucial to answer, as Lond
 
 2. Calculate the number of days of rain in 2003 and 2023 of each city
 3. Obtain the total precipitation in mm in 2003 and 2023 of each city
-4. Obtain the distribution of precipitation in mm in 2003 and 2023 of each city
+4. Obtain the daily precipitation in mm in 2003 and 2023 of each city
 5. Visualise the data using the lets-plot library
     - The number of days of rain in 2003 and 2023 will be displayed on a single bar chart
-    - The total precipitation in 2003 and 2023 will also be displayed on a single bar chart
+    - The total precipitation in 2003 and 2023 will also be displayed on a single bar chart and a world map
     - The distribution of precipitation in 2003 and 2023 will each be represented with ten boxplots (one for each city)
 
 ## Implementation and usage:
