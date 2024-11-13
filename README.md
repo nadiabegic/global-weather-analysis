@@ -29,7 +29,7 @@ There are numerous variables that contribute towards the perception that London 
 4. Obtain the daily precipitation in mm in 2003 and 2023 of each city
 5. Visualise the data using the lets-plot library
     - The number of days of rain in 2003 and 2023 will be displayed on a single bar chart
-    - The total precipitation in 2003 and 2023 will also be displayed on a single bar chart and a world map
+    - The total precipitation in 2003 and 2023 will also be displayed on a single bar chart and an interactive world map created with geopandas
     - The distribution of precipitation in 2003 and 2023 will each be represented with ten boxplots (one for each city)
 
 ## Implementation and usage:
@@ -81,6 +81,8 @@ ChatGPT was used in this project to assist in combatting errors. The link to the
 - https://open-meteo.com/en/docs/historical-weather-api#latitude=51.5085&longitude=-0.1257&start_date=2023-01-01&end_date=2023-12-31&hourly=&daily=rain_sum
 - https://stephenliddell.co.uk/2018/01/27/busting-the-myth-of-london-being-a-rainy-city/ 
 - https://en.wikipedia.org/wiki/List_of_cities_by_average_precipitation
-- https://medium.com/@MoonlightO2/what-are-the-most-effective-ways-to-visualize-weather-data-b0d8da8cd62e#:~:text=Choosing%20the%20right%20type%20of,like%20wind%20speed%20or%20humidity.
+- https://medium.com/@MoonlightO2/what-are-the-most-effective-ways-to-visualize-weather-data-b0d8da8cd62e#:~:text=Choosing%20the%20right%20type%20of,like%20wind%20speed%20or%20humidity
 - https://lets-plot.org/python/pages/api/lets_plot.geom_bar.html#lets_plot.geom_bar
 - https://lets-plot.org/python/pages/api/lets_plot.scale_fill_brewer.html
+- https://nbviewer.org/github/JetBrains/lets-plot-docs/blob/master/source/examples/cookbook/geopandas_naturalearth.ipynb
+- https://github.com/JetBrains/lets-plot-docs/tree/master/data/naturalearth/admin_0_countries
