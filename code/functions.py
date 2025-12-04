@@ -4,13 +4,6 @@ This module defines the functions to collect data from the Historical Weather AP
 
 # Imports
 import requests
-import json
-import pandas as pd
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # take environment variables from .env file
-
 
 def get_lat_long(country_code, city_name, world_cities):
     """

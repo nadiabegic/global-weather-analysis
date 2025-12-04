@@ -84,7 +84,12 @@ Global Weather Analysis/
 ├── data/
 │   └── world_cities.csv
 │
-├── hq720.png
+├── figures/
+│   ├── days_rain_plot.png
+│   ├── hq720.png
+│   ├── total_prec_map.png
+│   └── total_prec_plot.png
+│
 ├── .gitignore
 ├── requirements.txt
 └── README.md
