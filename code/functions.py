@@ -6,6 +6,8 @@ This module defines the functions to collect data from the Historical Weather AP
 import requests
 import json
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
 load_dotenv()  # take environment variables from .env file
 
