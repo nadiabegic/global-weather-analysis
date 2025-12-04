@@ -5,6 +5,7 @@ This project is an adapted version of coursework completed for LSE DS105A.
 **AUTHOR:** @nadiabegic on GitHub
 
 ![alt text](figures/hq720.png)
+
 [Via Watched Walker on YouTube](https://www.youtube.com/watch?v=H43glfbQEh4)
 
 ## 📌 Objective
